@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/dayliFragment">
+
+    <fragment
+        android:id="@+id/dayliFragment"
+        android:name="com.example.weatherapp_master.Ui.DayliFragment"
+        android:label="fragment_dayli"
+        />
+    <fragment
+        android:id="@+id/hourlyFragment"
+        android:name="com.example.weatherapp_master.Ui.HourlyFragment"
+        android:label="fragment_hourly"
+        />
+    <fragment
+        android:id="@+id/weeklyFragment"
+        android:name="com.example.weatherapp_master.Ui.WeeklyFragment"
+        android:label="fragment_weekly"
+        />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.weatherapp_master.Ui.SettingFragment"
+        android:label="fragment_setting"
+        />
+</navigation>
