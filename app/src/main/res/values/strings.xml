@@ -2,7 +2,7 @@
     <string name="app_name">WeatherApp-Master</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-<!--    string dayly fragment-->
+    <!--    string dayly fragment-->
     <string name="feels_like">Feels like</string>
     <string name="today">Today</string>
     <string name="humidity">Humidity</string>
@@ -20,5 +20,11 @@
     <string name="add_location">Add Location</string>
     <string name="name_owner_project">Đào Hoàng Mai</string>
     <string name="email">Huynv0503@gmail.com</string>
+    <string name="hint_search">Enter the location!</string>
+    <string name="temperature">Temperature</string>
+    <string name="fahrenheit">Fahrenheit (oF)</string>
+    <string name="mode">Mode</string>
+    <string name="darkmode">Dark Mode</string>
+    <string name="city">City</string>
 
 </resources>

@@ -8,12 +8,6 @@ import android.view.ViewGroup
 import com.example.weatherapp_master.R
 import com.example.weatherapp_master.databinding.FragmentWeeklyBinding
 
-
-/**
- * A simple [Fragment] subclass.
- * Use the [WeeklyFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class WeeklyFragment : Fragment() {
     val binding : FragmentWeeklyBinding by lazy{FragmentWeeklyBinding.inflate(layoutInflater)}
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ui.Favourite_add_city">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingTop="8dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toRightOf="@+id/image_back"
+            android:background="@drawable/shapebgsearch"
+            android:iconifiedByDefault="false"
+            android:paddingTop="8dp"
+            android:queryBackground="@null"
+            android:queryHint="Add Location"
+            android:searchIcon="@drawable/ic_search_black_24dp"
+            android:submitBackground="@null" />
+    </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:text="CiTy"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerAlphabets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textCity"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                android:padding="20dp"
+                android:spanCount="3"
+                tools:listitem="@layout/item_add_location" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

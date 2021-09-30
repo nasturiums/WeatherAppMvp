@@ -8,12 +8,6 @@ import android.view.ViewGroup
 import com.example.weatherapp_master.R
 import com.example.weatherapp_master.databinding.FragmentHourlyBinding
 
-
-/**
- * A simple [Fragment] subclass.
- * Use the [HourlyFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class HourlyFragment : Fragment() {
     val binding :FragmentHourlyBinding by lazy { FragmentHourlyBinding.inflate(layoutInflater) }
     override fun onCreateView(

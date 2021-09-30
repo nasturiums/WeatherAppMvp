@@ -11,12 +11,6 @@ import com.example.weatherapp_master.databinding.ActivityMainBinding.inflate
 import com.example.weatherapp_master.databinding.FragmentDayliBinding
 import com.example.weatherapp_master.databinding.FragmentHourlyBinding
 
-
-/**
- * A simple [Fragment] subclass.
- * Use the [DayliFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class DayliFragment : Fragment() {
     private val binding: FragmentDayliBinding by lazy {FragmentDayliBinding.inflate(layoutInflater) }
     override fun onCreateView(

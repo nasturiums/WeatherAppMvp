@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/navigation_today"
+        android:id="@+id/dayliFragment"
         android:title="@string/title_today"
         android:icon="@drawable/ic_today_black_24dp"/>
     <item
-        android:id="@+id/navigation_hourly"
+        android:id="@+id/hourlyFragment"
         android:title="@string/title_hourly"
         android:icon="@drawable/ic_baseline_access_time_24"/>
     <item
-        android:id="@+id/navigation_weekly"
+        android:id="@+id/weeklyFragment"
         android:title="@string/title_weekly"
         android:icon="@drawable/ic_date_range_black_24dp"/>
     <item
-        android:id="@+id/navigation_setting"
+        android:id="@+id/settingFragment"
         android:title="@string/title_setting"
         android:icon="@drawable/ic_settings_black_24dp"/>
 </menu>
